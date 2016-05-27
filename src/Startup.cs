@@ -7,7 +7,7 @@ using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace aspnet_core_mysql_sample
+namespace aspnetcore_mysql_ex
 {
     public class Startup
     {
