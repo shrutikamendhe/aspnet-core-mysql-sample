@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4805D91-A4DC-4C31-93B3-60F79C888BA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9B41C43-4AD3-4C45-AF88-4AE4C89728E6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aspnet-core-mysql-sample", "src\aspnet-core-mysql-sample\aspnet-core-mysql-sample.xproj", "{78D7310A-872C-4838-9E9A-602EE47C45F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78D7310A-872C-4838-9E9A-602EE47C45F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D7310A-872C-4838-9E9A-602EE47C45F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D7310A-872C-4838-9E9A-602EE47C45F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D7310A-872C-4838-9E9A-602EE47C45F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78D7310A-872C-4838-9E9A-602EE47C45F6} = {C4805D91-A4DC-4C31-93B3-60F79C888BA4}
+	EndGlobalSection
+EndGlobal
